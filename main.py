@@ -66,7 +66,7 @@ def del_player(message):
     del players[message.chat.id]
 
 
-token = '5135861591:AAF9lyHGaulc0pmuGMvgPwXUknojemahiRk'
+token = '<token>'
 bot = telebot.TeleBot(token)
 players = dict()
 
